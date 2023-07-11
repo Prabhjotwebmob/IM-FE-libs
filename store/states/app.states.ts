@@ -1,15 +1,15 @@
-import { routerReducer, RouterReducerState } from '@ngrx/router-store';
+// import { routerReducer, RouterReducerState } from '@ngrx/router-store';
 import { AuthReducer } from '../reducers/auth.reducer';
 import { AuthState } from '../states/auth.state';
 
 export interface AppState {
-//   shared: SharedState;
+  //   shared: SharedState;
   auth: AuthState;
-  router: RouterReducerState;
+  // router: RouterReducerState;
 }
 
 export const appReducer = {
-//   shared: SharedReducer,
+  //   shared: SharedReducer,
   auth: AuthReducer,
-  router: routerReducer,
+  // router: routerReducer,
 };
