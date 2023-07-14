@@ -7,7 +7,7 @@ import { httpOptions } from "../types/http-options";
 })
 export class HttpService {
     environment = {
-        apiUrl: 'https://beta-uat.instimatch.ch'
+        apiUrl: 'https://testing.instimatch.ch'
     }
     constructor(private http: HttpClient) { }
 
