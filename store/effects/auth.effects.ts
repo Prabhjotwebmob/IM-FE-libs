@@ -4,7 +4,6 @@
 //   import { Actions, createEffect, ofType } from '@ngrx/effects';
 //   import { Injectable } from '@angular/core';
 //   import { loginSuccess } from '../actions/auth.actions';
-//   import { Http } from '@angular/http';
 //   import { map, catchError, mergeMap } from 'rxjs/operators';
 //   import { EMPTY} from 'rxjs';
   
